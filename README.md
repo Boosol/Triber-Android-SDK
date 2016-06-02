@@ -113,3 +113,4 @@ themePoweredByTriberTextColor : "Powered bo Triber" text color
 themePoweredByTriberBackgroundColor : "Powered by Triber" background color
 themePoweredByTriberLogoColor : "Powered by Triber" Logo color (LogoColor.WHITE or LogoColor.BLACK)
 
+# Happy Tribin' ! :)
