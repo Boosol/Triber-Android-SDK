@@ -1,8 +1,7 @@
 # What is in the repositories
 
-dist : containing the lastest SDK
-
-example : containing an example app integrating the Triber SDK
+- ./dist : containing the lastest SDK
+- ./example : containing an example app integrating the Triber SDK
 
 # How to install
 
