@@ -92,25 +92,25 @@ Done !
 Use these options in the TriberSdkConfig class to personalise the Triber integration in your app
 
 ### Welcome Screen
-themeWelcomeScreenLogo : Your logo
-themeWelcomeScreenTriberLogoColor : Welcome screen Tribe logo color (LogoColor.WHITE or LogoColor.BLACK)
+- themeWelcomeScreenLogo : Your logo
+- themeWelcomeScreenTriberLogoColor : Welcome screen Tribe logo color (LogoColor.WHITE or LogoColor.BLACK)
 
 ### Font color and typeface
-themeTitleTypeface : Titles and item titles font
-themeTitleColor : Titles and item titles color
-themeTextTypeface : Text block font
-themeTextColor : Text block color
-buttonTypeface : Button text font
-themeBackgroundImage : Background image
+- themeTitleTypeface : Titles and item titles font
+- themeTitleColor : Titles and item titles color
+- themeTextTypeface : Text block font
+- themeTextColor : Text block color
+- buttonTypeface : Button text font
+- themeBackgroundImage : Background image
 
 ### Compass
-themeCompassArrowColor : Color of the arrow
-themeDistanceTextColor : Distance to point text color
-themeMeetingPointCompassIcon : Icone on the left of the meetings points list
+- themeCompassArrowColor : Color of the arrow
+- themeDistanceTextColor : Distance to point text color
+- themeMeetingPointCompassIcon : Icone on the left of the meetings points list
 
 ### Powered by Triber
-themePoweredByTriberTextColor : "Powered bo Triber" text color
-themePoweredByTriberBackgroundColor : "Powered by Triber" background color
-themePoweredByTriberLogoColor : "Powered by Triber" Logo color (LogoColor.WHITE or LogoColor.BLACK)
+- themePoweredByTriberTextColor : "Powered bo Triber" text color
+- themePoweredByTriberBackgroundColor : "Powered by Triber" background color
+- themePoweredByTriberLogoColor : "Powered by Triber" Logo color (LogoColor.WHITE or LogoColor.BLACK)
 
 # Happy Tribin' ! :)
