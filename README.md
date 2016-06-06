@@ -1,32 +1,22 @@
 # What is in the repositories
 
-- ./dist : containing the lastest SDK
 - ./example : containing an example app integrating the Triber SDK
 
 # How to install
-
-Put triber-sdk-release.aar into app/libs directory (create it if necessary)
 
 Add library dependencies to build.gradle:
 
 ```groovy
 repositories {
-  flatDir {
-    dirs 'libs'
-  }
+    maven {
+        url 'https://dl.bintray.com/pause/maven/'
+    }
 }
 
 dependencies {
-  compile(name:'triber-sdk-release', ext:'aar')
-  compile 'com.android.support:support-v4:23.4.0'
-  compile 'com.android.support:appcompat-v7:23.4.0'
-  compile 'com.android.support:percent:23.4.0'
-  compile 'com.google.android.gms:play-services-maps:8.4.0'
-  compile 'com.google.android.gms:play-services-location:8.4.0'
-  compile 'com.squareup.picasso:picasso:2.5.2'
-  compile 'com.squareup.retrofit2:retrofit:2.0.2'
-  compile 'com.squareup.retrofit2:converter-gson:2.0.0'
-  compile 'com.sothree.slidinguppanel:library:3.3.0'
+  compile ('fr.pixhe.tribersdk:triber-sdk:1.0.2@aar') {
+    transitive = true
+  }
 }
 ```
 
