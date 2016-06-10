@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-  compile ('fr.pixhe.tribersdk:triber-sdk:1.0.2@aar') {
+  compile ('fr.pixhe.tribersdk:triber-sdk:1.0.3@aar') {
     transitive = true
   }
 }
